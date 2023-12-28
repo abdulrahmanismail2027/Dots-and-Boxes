@@ -1,0 +1,21 @@
+#pragma once
+#define chain 2
+#define dot 3
+#define blank 4
+#define closedBox 5
+#define player1Box 5
+#define player2Box -5
+#define ANSI_COLOR_BLUE    "\x1b[34m"
+#define ANSI_COLOR_YELLOW     "\x1b[33m"
+#define ANSI_COLOR_GREEN    "\x1b[32m"
+#define ANSI_COLOR_RED   "\x1b[31m"
+#define ANSI_COLOR_CYAN    "\x1b[36m"
+#define ANSI_COLOR_BACKGROUND_CYAN    "\x1b[46m"
+#define ANSI_COLOR_RESET   "\x1b[0m"
+#define MAX_DATE_LENGTH 30
+#define MAX_PATH_LENGTH 100
+#define MAX_GAMEINFO_LENGTH 50
+#define MAX_NAME_LENGTH 20
+#define MAX_RECORDS 100
+#define MAX_GRID_SIZE 12
+#define MAX_STACK_SIZE 60
