@@ -224,8 +224,8 @@ Names loadNames()
     file = fopen("players", "r");
     if (!file)
         printf("Error: players names file not found!");
-    fscanf(file, "%s", playerNames.player1Name);
-    fscanf(file, "%s", playerNames.player2Name);
+    fgets(playerNames.player1Name, MAX_NAME_LENGTH, file);
+    fgets(playerNames.player1Name, MAX_NAME_LENGTH, file);
     fclose(file);
     return playerNames;
 }
