@@ -157,6 +157,7 @@ int PvPGameFlow(gameInfo PvPGame,char size, char grid[size][size],Names playerNa
     else
     {
         printf(ANSI_COLOR_CYAN"No player won, it's a tie!\n"ANSI_COLOR_RESET);
+        printHighscores(executionDir);
     }
     int choice;
     printf("Enter an option\n1: Go back to main menu\t2: Quit game\n");
@@ -309,10 +310,12 @@ int PvCGameFlow(gameInfo PvCGame,char size, char grid[size][size],Names playerNa
     else if (PvCGame.player1Score < PvCGame.player2Score)
     {
         printf(ANSI_COLOR_RED"Sorry %s, you lost!\n"ANSI_COLOR_RESET, playerNames.player1Name);
+        printHighscores(executionDir);
     }
     else
     {
         printf(ANSI_COLOR_CYAN"No one won, it's a tie!\n"ANSI_COLOR_RESET);
+        printHighscores(executionDir);
     }
     int choice;
     printf("Enter an option\n1: Go back to main menu\t2: Quit game\n");
