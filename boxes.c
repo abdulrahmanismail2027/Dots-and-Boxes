@@ -1,5 +1,5 @@
 #include "constants.h"
-#include "managearrs.h" \\arr
+#include "managearrs.h"
 #include <math.h>
 #include <stdio.h>
 void splitBoxCoordinates(int coordinate, char *r, char *c)
